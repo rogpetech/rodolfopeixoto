@@ -2,8 +2,38 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
     <title>Perfil Profissional - Rodolfo Peixoto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do site, resumindo o conteúdo principal e objetivo.">
+    <meta name="author" content="Nome do autor">
+    <meta name="keywords" content="palavras-chave, separadas, por, vírgulas">
+    <title>Título da Página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="URL da página">
+    <meta property="og:title" content="Título da Página">
+    <meta property="og:description" content="Descrição do site, resumindo o conteúdo principal e objetivo.">
+    <meta property="og:image" content="URL da imagem de pré-visualização">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="URL da página">
+    <meta property="twitter:title" content="Título da Página">
+    <meta property="twitter:description" content="Descrição do site, resumindo o conteúdo principal e objetivo.">
+    <meta property="twitter:image" content="URL da imagem de pré-visualização">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/path/to/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/path/to/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+
+    <!-- CSS e outros recursos -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
@@ -22,7 +52,6 @@
               <nav class="hidden md:flex space-x-4 items-center">
                   <a href="#home" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">Home</a>
                   <a href="#about" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">About</a>
-                  <a href="#portfolio" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">Portfolio</a>
                   <a href="#services" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">Services</a>
                   <a href="#blog" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">Blog</a>
                   <a href="#contact" class="py-5 px-3 text-gray-700 hover:text-gray-900 transition duration-300">Contact</a>
@@ -37,13 +66,13 @@
       <div class="mobile-menu hidden md:hidden">
           <a href="#home" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Home</a>
           <a href="#about" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">About</a>
-          <a href="#portfolio" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Portfolio</a>
-          <a href="#services" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Services</a>
+          <a href="#portfolio" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Trabalhos</a>
           <a href="#blog" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Blog</a>
           <a href="#contact" class="block text-gray-600 py-2 px-4 text-sm hover:bg-gray-900">Contact</a>
       </div>
   </header>
 
+ 
 <!-- Main content -->
 <main class="container mx-auto px-4 lg:px-20 py-8 min-h-screen flex items-center justify-center">
   <section id="home-section" class="flex flex-wrap lg:flex-nowrap items-center justify-between">
@@ -75,9 +104,12 @@
           <img src="https://mk-minio.snzkaq.easypanel.host/rogpetechassets/rodolfopeixoto.png" alt="Rodolfo Peixoto" class="rounded-lg shadow-xl">
         </div>
         <div class="w-full md:w-1/2 p-4 flex flex-col justify-center">
-          <p class="text-lg text-gray-700 mb-4">Olá! Meu nome é Rodolfo Peixoto. Sou um líder técnico apaixonado por desafios e inovação no universo da tecnologia. Com mais de uma década de experiência no desenvolvimento de software, tenho uma trajetória marcada por contribuições significativas em projetos de grande escala, especializando-me em Ruby on Rails, React, e arquitetura de microserviços.</p>
-          <p class="text-lg text-gray-700 mb-4">Fora do trabalho, sou um ávido aprendiz, sempre explorando novas tecnologias e metodologias que podem aprimorar não só o meu conjunto de habilidades, mas também as soluções que desenvolvo. Quando não estou codificando, você pode me encontrar em trilhas de montanha, lendo um bom livro ou explorando a fotografia.</p>
-          <p class="text-lg text-gray-700">Acredito firmemente no poder da tecnologia para transformar o mundo e estou sempre em busca de projetos que busquem fazer a diferença. Vamos conectar!</p>
+          <p class="text-lg text-gray-700 mb-4">Olá! Meu nome é Rodolfo Peixoto. Sou um líder técnico e empresário apaixonado por desafios e inovação no universo da tecnologia. Com mais de uma década de experiência em desenvolvimento de software, minha jornada é marcada por contribuições significativas em projetos de grande escala, especialmente em Ruby on Rails, React, e arquitetura de microserviços. Atualmente, lidero equipes no Mercado Livre, impulsionando inovações e excelência técnica.</p>
+          <p class="text-lg text-gray-700 mb-4">Fora do trabalho, estou à frente da rogpe.tech e da skill.dev, duas empresas que refletem meu compromisso com a evolução constante do setor de tecnologia. Na rogpe.tech, focamos no desenvolvimento de soluções de software robustas e escaláveis, enquanto na skill.dev, dedicamo-nos a educar e preparar a próxima geração de desenvolvedores para os desafios do mercado, com cursos abrangentes em tecnologias de ponta.</p>
+          <p class="text-lg text-gray-700 mb-4">Sou um ávido aprendiz, sempre à procura de novas tecnologias e metodologias que possam enriquecer meu conjunto de habilidades e as soluções que desenvolvo. Nos momentos de lazer, sou um entusiasta de trilhas de montanha, leitura e fotografia, buscando sempre equilíbrio e inspiração.
+
+          </p>
+          <p class="text-lg text-gray-700">Acredito no poder transformador da tecnologia e estou sempre em busca de projetos inovadores que aspirem fazer a diferença no mundo. Estou aberto a conexões e oportunidades de colaborar em iniciativas que visem impacto positivo. Vamos conectar!</p>
         </div>
         <div class="mt-10">
           <div class="relative border-l-4 border-gray-200">
@@ -239,39 +271,6 @@
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio-section" class="hidden flex flex-wrap items-center justify-between">
-    <!-- Conteúdo da Seção Portfolio -->
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold">Meu Portfolio</h2>
-        <p class="text-gray-600">Uma visão geral dos projetos e marcos significativos.</p>
-      </div>
-  
-      <div class="relative border-l-2 border-gray-200">
-        <!-- Timeline Item 1 -->
-        <div class="mb-8 ml-4">
-          <div class="absolute w-6 h-6 bg-blue-500 rounded-full mt-1.5 -left-3 border-2 border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400">Março 2023</time>
-          <h3 class="text-lg font-semibold text-gray-900">Projeto React Inovador</h3>
-          <p class="text-base font-normal text-gray-700">Desenvolvimento de uma aplicação React com uso intensivo de hooks e context API para gestão de estado global.</p>
-          <span class="text-blue-500"><i class="fab fa-react"></i> React</span>
-        </div>
-  
-        <!-- Timeline Item 2 -->
-        <div class="mb-8 ml-4">
-          <div class="absolute w-6 h-6 bg-green-500 rounded-full mt-1.5 -left-3 border-2 border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400">Julho 2022</time>
-          <h3 class="text-lg font-semibold text-gray-900">Lançamento da Minha Startup</h3>
-          <p class="text-base font-normal text-gray-700">Co-fundação de uma startup de tecnologia focada em soluções de inteligência artificial para o varejo.</p>
-          <span class="text-green-500"><i class="fas fa-robot"></i> Startup</span>
-        </div>
-  
-        <!-- Adicione mais itens de timeline conforme necessário -->
-      </div>
-    </div>
-  </section>
-
   <!-- Blog Section -->
   <!-- <section id="blog-section" class="hidden flex flex-wrap items-center justify-between"> -->
     <!-- Conteúdo da Seção Blog -->
@@ -281,11 +280,94 @@
   <!-- Contact Section -->
   <section id="contact-section" class="hidden flex flex-wrap items-center justify-between">
     <!-- Conteúdo da Seção Contact -->
-    <h1>CONTATO</h1>
+    <div class="container mx-auto px-4 py-6 mt-6 flex flex-wrap items-center justify-center">
+
+       <!-- Formulário -->
+       <div class="w-full lg:w-4/4 p-5">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h2 class="text-xl font-semibold mb-4">Envie uma mensagem</h2>
+          <form action="SEU_ENDPOINT" method="POST">
+            <div class="mb-4">
+              <label for="firstName" class="block text-gray-700 text-sm font-semibold mb-2">Nome</label>
+              <input type="text" id="firstName" name="firstName" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+              <label for="lastName" class="block text-gray-700 text-sm font-semibold mb-2">Sobrenome</label>
+              <input type="text" id="lastName" name="lastName" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+              <label for="whatsapp" class="block text-gray-700 text-sm font-semibold mb-2">Whatsapp</label>
+              <input type="text" id="whatsapp" name="whatsapp" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">E-mail</label>
+              <input type="email" id="email" name="email" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Mensagem</label>
+              <textarea id="message" name="message" rows="4" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- Card de Contato -->
+      <div class="w-full lg:w-2/2 p-5">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h2 class="text-xl font-semibold mb-4">Contato</h2>
+          <ul>
+            <li class="mb-2">
+              <span class="font-semibold">Email:</span> rodolfo.peixoto@rogpe.tech
+            </li>
+            <li class="mb-2">
+              <span class="font-semibold">Telefone:</span> (22) 99967-0303
+            </li>
+            <li>
+              <span class="font-semibold">Endereço:</span> Cabo Frio, RJ
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+     
+    </div>
   </section>
   
   
   </main>
+
+  <footer class="bg-white border-t mt-8 py-4">
+    <div class="max-w-5xl mx-auto px-4 flex flex-wrap justify-between items-center">
+        <!-- Links das empresas e cursos -->
+        <div class="flex items-center space-x-4">
+            <a href="https://skill.dev" class="text-gray-600 hover:text-gray-900 transition duration-300">skill.dev</a>
+            <a href="https://rogpe.tech" class="text-gray-600 hover:text-gray-900 transition duration-300">rogpe.tech</a>
+            <a href="#" class="text-gray-600 hover:text-gray-900 transition duration-300">cursos</a>
+        </div>
+
+        <!-- Ícones de redes sociais -->
+        <div class="flex items-center space-x-4">
+            <a href="https://www.facebook.com/rodolfogpeixoto" class="text-gray-600 hover:text-gray-900 transition duration-300">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" class="text-gray-600 hover:text-gray-900 transition duration-300">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rodolfogpeixoto/" class="text-gray-600 hover:text-gray-900 transition duration-300">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/rodolfopeixoto" class="text-gray-600 hover:text-gray-900 transition duration-300">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</footer>
 
 
 <script>
